@@ -4,12 +4,9 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:070709,40:18181b,100:a3e635&height=220&section=header&text=GOWRAV%20M&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" alt="Header Banner" />
 
 <!-- Typing SVG Subtitle -->
-<a href="https://gowrav.tech/">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=A3E635&center=true&vCenter=true&width=800&height=50&lines=Full-Stack+AI+%26+Distributed+Systems+Architect+%E2%9A%A1;Creator+of+BHARAT+PULSE+(gowrav.tech)+%F0%9F%87%AE%F0%9F%87%B3;Creator+of+Personal+Finance+Management+System+%F0%9F%92%A1;React+19+%E2%80%A2+TypeScript+%E2%80%A2+Python+%E2%80%A2+Supabase+%E2%80%A2+Gemini+AI+%F0%9F%9A%80" alt="Typing Subtitle" />
-</a>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=A3E635&center=true&vCenter=true&width=800&height=50&lines=Full-Stack+AI+%26+Distributed+Systems+Architect+%E2%9A%A1;Creator+of+BHARAT+PULSE+%F0%9F%87%AE%F0%9F%87%B3;Creator+of+Personal+Finance+Management+System+%F0%9F%92%A1;React+19+%E2%80%A2+TypeScript+%E2%80%A2+Python+%E2%80%A2+Supabase+%E2%80%A2+Gemini+AI+%F0%9F%9A%80" alt="Typing Subtitle" />
 
 <p align="center">
-  <a href="https://gowrav.tech/"><img src="https://img.shields.io/badge/🌐_Live_Portfolio-gowrav.tech-00C853?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
   <a href="https://github.com/Gowrav-M"><img src="https://img.shields.io/github/followers/Gowrav-M?style=for-the-badge&logo=github&color=a3e635&labelColor=070709" alt="GitHub Followers" /></a>
   <a href="mailto:gowravm360@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
@@ -25,7 +22,6 @@
   "developer": "Gowrav M",
   "role": "Full-Stack AI Engineer & Distributed Systems Architect",
   "location": "India 🇮🇳",
-  "live_portfolio": "https://gowrav.tech/",
   "specializations": [
     "Autonomous AI Agent Systems (Gemini 2.5, MCP, ToolBOM)",
     "Real-Time Civic & Geospatial Intelligence Platforms (MapLibre GL, H3)",
@@ -43,10 +39,9 @@
 
 <div align="center">
 
-### 🇮🇳 [**BHARAT PULSE — India's Real-Time Civic Intelligence Dashboard**](https://gowrav.tech/)
+### 🇮🇳 **BHARAT PULSE — India's Real-Time Civic Intelligence Dashboard**
 **A production-grade satellite intelligence platform that monitors civic infrastructure failures across India in real-time.**
 
-[![Live Site](https://img.shields.io/badge/🌐_Live_Site-gowrav.tech-00C853?style=flat-square&logo=vercel&logoColor=white)](https://gowrav.tech/)
 [![Showcase Repo](https://img.shields.io/badge/Showcase_Repo-Gowrav--M/bharat--pulse--showcase-blue?style=flat-square&logo=github)](https://github.com/Gowrav-M/bharat-pulse-showcase)
 [![Tech Stack](https://img.shields.io/badge/Stack-React_19_%7C_TypeScript_%7C_MapLibre_%7C_Gemini_2.5_%7C_Supabase-a3e635?style=flat-square&logoColor=black)]()
 
@@ -156,7 +151,6 @@
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Website-gowrav.tech-00C853?style=for-the-badge&logo=vercel&logoColor=white)](https://gowrav.tech/)
 [![Email](https://img.shields.io/badge/📧_Email-gowravm360@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gowravm360@gmail.com)
 [![GitHub](https://img.shields.io/badge/🐙_GitHub-Gowrav--M-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gowrav-M)
 
