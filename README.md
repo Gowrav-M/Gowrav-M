@@ -159,5 +159,5 @@
 <br />
 
 <div align="center">
-  <sub>Designed & built with ❤️ by <b>Gowrav M</b> • Powered by Radium Lime Cyber Aesthetics</sub>
+  <sub>Designed & built with ❤️ by <b>Gowrav M</b></sub>
 </div>
