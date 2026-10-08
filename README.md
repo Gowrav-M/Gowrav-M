@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:070709,40:18181b,100:a3e635&height=220&section=header&text=GOWRAV%20M&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" alt="Gowrav M GitHub Profile Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:070709,40:18181b,100:a3e635&height=220&section=header&text=Gowrav%20M&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" alt="Gowrav M GitHub Profile Banner" />
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=A3E635&center=true&vCenter=true&width=900&height=50&lines=Full-Stack+AI+Engineer;Building+Real-Time+Decision+Systems;AI+Agents+%E2%80%A2+Geospatial+Intelligence+%E2%80%A2+Security;React+%E2%80%A2+TypeScript+%E2%80%A2+Python+%E2%80%A2+PostgreSQL" alt="Typing introduction" />
 
