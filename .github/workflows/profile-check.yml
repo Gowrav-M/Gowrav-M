@@ -1,0 +1,79 @@
+name: Validate profile README
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - ".github/workflows/profile-check.yml"
+  pull_request:
+    paths:
+      - "README.md"
+      - ".github/workflows/profile-check.yml"
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-readme-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Check README links and structure
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate project links and profile sections
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import os
+          import re
+          import sys
+          import urllib.request
+          from pathlib import Path
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          required_sections = [
+              "## 👋 About",
+              "## 🚀 Selected work",
+              "## 🔐 Agent trust engineering",
+              "## 🧰 Technologies",
+              "## 📈 GitHub activity",
+          ]
+          missing = [section for section in required_sections if section not in readme]
+          if missing:
+              print("Missing required sections:", ", ".join(missing))
+              sys.exit(1)
+
+          urls = sorted(set(re.findall(r"https://github\\.com/Gowrav-M/[A-Za-z0-9_.-]+", readme)))
+          headers = {"User-Agent": "Gowrav-M-profile-readme-check"}
+          token = os.environ.get("GITHUB_TOKEN")
+          if token:
+              headers["Authorization"] = f"Bearer {token}"
+
+          failures = []
+          for url in urls:
+              request = urllib.request.Request(url, headers=headers)
+              try:
+                  with urllib.request.urlopen(request, timeout=15) as response:
+                      if response.status >= 400:
+                          failures.append((url, response.status))
+              except Exception as exc:
+                  failures.append((url, str(exc)))
+
+          if failures:
+              for url, error in failures:
+                  print(f"FAILED: {url} — {error}")
+              sys.exit(1)
+
+          print(f"Profile README validated: {len(urls)} GitHub repository links checked.")
+          PY
