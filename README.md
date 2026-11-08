@@ -1,21 +1,19 @@
-<!--
-  Profile source of truth: verified public repositories owned by Gowrav-M.
-  Keep project claims tied to repository documentation; avoid hard-coded activity counts.
--->
-
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080B12,45:101B2D,100:57D6C7&height=230&section=header&text=Gowrav%20M&fontSize=68&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Full-Stack%20Engineering&descSize=18&descAlignY=60" width="100%" alt="Gowrav M — AI and Full-Stack Engineering" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:070709,40:18181b,100:a3e635&height=220&section=header&text=Gowrav%20M&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" alt="Gowrav M GitHub Profile Banner" />
 
-<a href="https://github.com/Gowrav-M"><img src="https://img.shields.io/badge/GitHub-Gowrav--M-111827?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
-<a href="mailto:gowravm21@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0F766E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://github.com/Gowrav-M?tab=repositories"><img src="https://img.shields.io/badge/Explore-Projects-1D4ED8?style=for-the-badge&logo=github" alt="Explore repositories" /></a>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=A3E635&center=true&vCenter=true&width=900&height=50&lines=Full-Stack+AI+Engineer;Building+Real-Time+Decision+Systems;AI+Agents+%E2%80%A2+Geospatial+Intelligence+%E2%80%A2+Security;React+%E2%80%A2+TypeScript+%E2%80%A2+Python+%E2%80%A2+PostgreSQL" alt="Typing introduction" />
+
+<p align="center">
+  <a href="https://github.com/Gowrav-M"><img src="https://img.shields.io/github/followers/Gowrav-M?style=for-the-badge&logo=github&color=a3e635&labelColor=070709" alt="GitHub followers" /></a>
+  <a href="mailto:gowravm21@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
 </div>
 
 ---
 
-## 👋 About
+## 👋 About Me
 
 I'm **Gowrav M**, an engineering student and builder interested in **AI systems, full-stack products, geospatial intelligence, and developer tooling**.
 
@@ -135,15 +133,15 @@ See the [NeuralOps Platform](https://github.com/Gowrav-M/neuralops-platform) for
 
 </div>
 
-<details>
-  <summary>Contribution graph animation</summary>
-  <br />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake.svg" />
-    <img alt="Contribution graph animation" src="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake.svg" width="100%" />
-  </picture>
-</details>
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake.svg" />
+  <img alt="GitHub contribution graph animation" src="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake.svg" width="100%" />
+</picture>
+
+</div>
 
 ---
 
