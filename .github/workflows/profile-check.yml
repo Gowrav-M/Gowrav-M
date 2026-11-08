@@ -54,7 +54,7 @@ jobs:
               print("Missing required sections:", ", ".join(missing))
               sys.exit(1)
 
-          urls = sorted(set(re.findall(r"https://github\\.com/Gowrav-M/[A-Za-z0-9_.-]+", readme)))
+          urls = sorted(set(re.findall(r"https://github\.com/Gowrav-M/[A-Za-z0-9_.-]+", readme)))
           headers = {"User-Agent": "Gowrav-M-profile-readme-check"}
           token = os.environ.get("GITHUB_TOKEN")
           if token:
