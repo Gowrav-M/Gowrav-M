@@ -1,152 +1,161 @@
+<!--
+  Profile source of truth: verified public repositories owned by Gowrav-M.
+  Keep project claims tied to repository documentation; avoid hard-coded activity counts.
+-->
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:070709,40:18181b,100:a3e635&height=220&section=header&text=Gowrav%20M&fontSize=65&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" alt="Gowrav M GitHub Profile Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:080B12,45:101B2D,100:57D6C7&height=230&section=header&text=Gowrav%20M&fontSize=68&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Full-Stack%20Engineering&descSize=18&descAlignY=60" width="100%" alt="Gowrav M — AI and Full-Stack Engineering" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=22&pause=1000&color=A3E635&center=true&vCenter=true&width=900&height=50&lines=Full-Stack+AI+Engineer;Building+Real-Time+Decision+Systems;AI+Agents+%E2%80%A2+Geospatial+Intelligence+%E2%80%A2+Security;React+%E2%80%A2+TypeScript+%E2%80%A2+Python+%E2%80%A2+PostgreSQL" alt="Typing introduction" />
-
-<p align="center">
-  <a href="https://github.com/Gowrav-M"><img src="https://img.shields.io/github/followers/Gowrav-M?style=for-the-badge&logo=github&color=a3e635&labelColor=070709" alt="GitHub followers" /></a>
-  <a href="mailto:gowravm21@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
+<a href="https://github.com/Gowrav-M"><img src="https://img.shields.io/badge/GitHub-Gowrav--M-111827?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
+<a href="mailto:gowravm21@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0F766E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/Gowrav-M?tab=repositories"><img src="https://img.shields.io/badge/Explore-Projects-1D4ED8?style=for-the-badge&logo=github" alt="Explore repositories" /></a>
 
 </div>
 
 ---
 
-## 👋 About Me
+## 👋 About
 
-I’m **Gowrav M**, a full-stack AI engineer focused on building software that connects **AI, real-time data, geospatial systems, automation, and secure infrastructure**.
+I'm **Gowrav M**, an engineering student and builder interested in **AI systems, full-stack products, geospatial intelligence, and developer tooling**.
 
-I enjoy turning complex ideas into polished, practical products — from intelligent dashboards and forecasting systems to agent tooling and developer infrastructure.
+I like taking ambitious ideas beyond a demo: understanding the problem, designing the architecture, building the product, and tightening the reliability and security around it.
 
-```text
-Focus:        AI Engineering • Full-Stack Development • Distributed Systems
-Builds:       Decision Intelligence • Agent Systems • Civic & Geospatial Platforms
-Frontend:     React • TypeScript • Next.js • Vite • Tailwind CSS
-Backend:      Python • FastAPI • Node.js • Express • PostgreSQL • Supabase
-AI / ML:      Gemini • LLMs • Forecasting • Anomaly Detection • Data Pipelines
-Infra:        Docker • Vercel • Render • GitHub Actions
-Location:     India 🇮🇳
-```
+- **Current interests:** agentic AI, AI safety and observability, geospatial systems, applied machine learning
+- **Building with:** TypeScript, React, Next.js, Python, Node.js, PostgreSQL, Supabase
+- **Exploring:** MCP ecosystems, model evaluation, retrieval and evidence pipelines, production engineering
+- **Based in:** India 🇮🇳
+
+> I value working software, inspectable evidence, and clear engineering trade-offs over inflated claims.
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Selected work
 
-### 🇮🇳 BHARAT PULSE
-**Real-time civic intelligence and geospatial decision platform.**
+These projects are linked directly to their repositories so the implementation and documentation can be inspected.
 
-A production-focused platform designed to combine live signals, geospatial context, news intelligence, and AI-assisted analysis into one operational view.
-
-**Stack:** React • TypeScript • MapLibre GL • Gemini • Supabase • REST APIs
-
-[**View repository →**](https://github.com/Gowrav-M/bharat-pulse-showcase)
-
-### 💰 Personal Finance Management System
-**AI-powered personal finance and forecasting platform.**
-
-Built around automated financial-data ingestion, transaction intelligence, forecasting, and risk-oriented insights.
-
-**Stack:** React • Python • FastAPI • Prophet • Groq • Gemini
-
-[**View repository →**](https://github.com/Gowrav-M/Personal-Finance-Management-System)
-
-### 🛡️ NeuralOps Platform
-**Security and authorization infrastructure for AI agents.**
-
-Exploring runtime controls, evidence-driven authorization, and safer tooling for autonomous systems and MCP-based workflows.
-
-**Stack:** AI Agents • MCP • Security • Runtime Controls
-
-[**View repository →**](https://github.com/Gowrav-M/neuralops-platform)
-
-### 🔍 Agent Cognicheck
-**Local-first security scanning for AI agent tools and capabilities.**
-
-[**View repository →**](https://github.com/Gowrav-M/agent-cognicheck)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛰️ SatQuery AI</h3>
+      <p><strong>Earth-observation visual question answering and analysis.</strong></p>
+      <p>Explores satellite imagery workflows across optical and SAR data, deterministic raster measurements, scientific guardrails, and traceable evidence.</p>
+      <a href="https://github.com/Gowrav-M/satquery-ai-sih-2026-evidence">Evidence repository →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ AgentOps Watchtower</h3>
+      <p><strong>Local-first observability and security for AI agents.</strong></p>
+      <p>Inspects MCP tool surfaces and runtime traces, builds risk evidence, and supports capability-policy workflows.</p>
+      <a href="https://github.com/Gowrav-M/agentops-watchtower">Repository →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌏 Bharat Pulse</h3>
+      <p><strong>Civic intelligence and geospatial monitoring.</strong></p>
+      <p>A public showcase for a platform focused on mapping civic signals and presenting data for operational analysis.</p>
+      <a href="https://github.com/Gowrav-M/bharat-pulse-showcase">Showcase repository →</a>
+      <br />
+      <a href="https://github.com/Gowrav-M/bharat-pulse">Private development repository (not publicly accessible) →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌱 EchoShare</h3>
+      <p><strong>Community-led environmental reporting.</strong></p>
+      <p>A full-stack sustainability application for geo-tagged pollution reports, community coordination, maps, and AI-assisted enrichment.</p>
+      <a href="https://github.com/Gowrav-M/EchoShare">Repository →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💸 Personal Finance Intelligence</h3>
+      <p><strong>Transaction intelligence and financial analytics.</strong></p>
+      <p>Explores transaction ingestion, classification, forecasting, anomaly detection, and conversational analysis.</p>
+      <a href="https://github.com/Gowrav-M/Personal-Finance-Management-System">Repository →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤖 Financial Autopilot</h3>
+      <p><strong>Privacy-first multi-agent finance prototype.</strong></p>
+      <p>A local Python and SQLite project for spending analysis, scenario simulation, and habit-oriented insights.</p>
+      <a href="https://github.com/Gowrav-M/financial-autopilot-agent">Repository →</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🧠 What I Like Building
+## 🔐 Agent trust engineering
 
-- AI agents that can reason, use tools, and operate safely
-- Real-time dashboards for complex operational data
-- Geospatial and location-intelligence applications
-- Forecasting, anomaly detection, and decision-support systems
-- Developer tooling and security infrastructure for modern AI applications
-- Fast, polished full-stack products from prototype to production
+I’m also exploring a connected set of focused tools around the security lifecycle of AI agents:
+
+| Project | Focus |
+| --- | --- |
+| [Agent Cognicheck](https://github.com/Gowrav-M/agent-cognicheck) | Pre-deployment checks for agent tools and skills |
+| [Agent SkillGuard](https://github.com/Gowrav-M/agent-skillguard) | Skill approval, integrity, and policy workflows |
+| [Agent Endpoint Doctor](https://github.com/Gowrav-M/agent-endpoint-doctor) | Endpoint diagnostics |
+| [Agent Trust Center](https://github.com/Gowrav-M/agent-trust-center) | Consolidated trust and evidence workflows |
+| [AgentOps Watchtower](https://github.com/Gowrav-M/agentops-watchtower) | Runtime observability and capability controls |
+
+See the [NeuralOps Platform](https://github.com/Gowrav-M/neuralops-platform) for related platform work.
 
 ---
 
-## 🛠️ Tech Stack
+## 🧰 Technologies
 
 <div align="center">
 
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+**Languages & application development**
 
-### Backend & Data
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+<img src="https://skillicons.dev/icons?i=python,ts,js,c,react,nextjs,nodejs,fastapi" alt="Python, TypeScript, JavaScript, C, React, Next.js, Node.js, FastAPI" />
 
-### AI / ML / Infra
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![MapLibre](https://img.shields.io/badge/MapLibre_GL-4264FB?style=for-the-badge)
+**Data, infrastructure & tools**
+
+<img src="https://skillicons.dev/icons?i=postgres,supabase,sqlite,docker,git,github,linux,vercel" alt="PostgreSQL, Supabase, SQLite, Docker, Git, GitHub, Linux, Vercel" />
+
+**AI & geospatial interests**
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,googlecloud" alt="TensorFlow, PyTorch, Google Cloud" />
 
 </div>
 
+*The icons represent technologies I work with or explore; they are not a claim that every project uses every item.*
+
 ---
 
-## 📊 GitHub Activity
+## 📈 GitHub activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Gowrav-M&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070709&title_color=a3e635&icon_color=a3e635&text_color=ffffff" width="49%" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gowrav-M&layout=compact&theme=tokyonight&hide_border=true&bg_color=070709&title_color=a3e635&text_color=ffffff" width="49%" alt="Top languages" />
+<a href="https://github.com/Gowrav-M">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Gowrav-M&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub profile statistics" />
+</a>
+<a href="https://github.com/Gowrav-M">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gowrav-M&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Most used public repository languages" />
+</a>
+
+<img src="https://streak-stats.demolab.com?user=Gowrav-M&hide_border=true&theme=transparent" alt="GitHub contribution streak" width="90%" />
+
+</div>
+
+<details>
+  <summary>Contribution graph animation</summary>
+  <br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake.svg" />
+    <img alt="Contribution graph animation" src="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake.svg" width="100%" />
+  </picture>
+</details>
+
+---
+
+## 🔗 Find me
+
+<div align="center">
+
+<a href="https://github.com/Gowrav-M"><img src="https://img.shields.io/badge/GitHub-Profile-111827?style=for-the-badge&logo=github" alt="GitHub" /></a>
+<a href="mailto:gowravm21@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-0F766E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 <br /><br />
+<sub>Built in public. Improved continuously. Focused on useful engineering.</sub>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Gowrav-M&theme=tokyonight&hide_border=true&background=070709&ring=a3e635&fire=a3e635&currStreakNum=a3e635" width="100%" alt="Contribution streak" />
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake-dark.svg" width="100%" />
-</picture>
-
-</div>
-
----
-
-## 🤝 Connect
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-Gowrav--M-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gowrav-M)
-[![Email](https://img.shields.io/badge/Email-gowravm21%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gowravm21@gmail.com)
-
-</div>
-
-<br />
-
-<div align="center">
-  <sub>Built with curiosity, engineering, and a bias toward shipping.</sub>
 </div>
