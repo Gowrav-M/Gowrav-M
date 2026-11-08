@@ -1,0 +1,37 @@
+name: Refresh profile analytics
+
+on:
+  schedule:
+    - cron: "23 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - ".github/workflows/profile-analytics.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-analytics
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Render self-hosted profile analytics
+        uses: seijikohara/profile-cards-action@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: Gowrav-M
+          cards: overview,contributions,languages,repositories,composition,rhythm
+          output-dir: assets/profile
+          themes: light,dark
+          commit: true
+          commit-message: "chore(profile): refresh analytics [skip ci]"
