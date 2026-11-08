@@ -202,7 +202,7 @@ The repository set is organized by the engineering problem each system addresses
 </details>
 
 <details>
-<summary><strong>02 — Earth observation, geospatial and civic intelligence</strong> · 3 repositories</summary>
+<summary><strong>02 — Earth observation, geospatial and civic intelligence</strong> · 4 repositories</summary>
 
 | Project | Engineering focus |
 | --- | --- |
