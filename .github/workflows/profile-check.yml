@@ -46,7 +46,7 @@ jobs:
               "## 👋 About",
               "## 🚀 Selected work",
               "## 🔐 Agent trust engineering",
-              "## 🧰 Technologies",
+              "## Technology stack",\n              "## Engineering systems map",\n              "## Project portfolio",\n              "## Live GitHub analytics",
               "## 📈 GitHub activity",
           ]
           missing = [section for section in required_sections if section not in readme]
