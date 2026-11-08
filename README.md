@@ -96,63 +96,235 @@ See the [NeuralOps Platform](https://github.com/Gowrav-M/neuralops-platform) for
 
 ---
 
-## 🧰 Technologies
+## Technology stack
+
+The stack below reflects technologies present across the public projects or actively explored in their implementations.
 
 <div align="center">
 
-**Languages & application development**
+**Application engineering**
 
-<img src="https://skillicons.dev/icons?i=python,ts,js,c,react,nextjs,nodejs,fastapi" alt="Python, TypeScript, JavaScript, C, React, Next.js, Node.js, FastAPI" />
+<img src="https://skillicons.dev/icons?i=ts,js,python,c,react,nextjs,nodejs,fastapi" alt="TypeScript, JavaScript, Python, C, React, Next.js, Node.js, FastAPI" />
 
-**Data, infrastructure & tools**
+**Data and infrastructure**
 
-<img src="https://skillicons.dev/icons?i=postgres,supabase,sqlite,docker,git,github,linux,vercel" alt="PostgreSQL, Supabase, SQLite, Docker, Git, GitHub, Linux, Vercel" />
+<img src="https://skillicons.dev/icons?i=postgres,supabase,sqlite,prisma,docker,linux,git,github,vercel" alt="PostgreSQL, Supabase, SQLite, Prisma, Docker, Linux, Git, GitHub, Vercel" />
 
-**AI & geospatial interests**
+**AI, research and geospatial**
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,googlecloud" alt="TensorFlow, PyTorch, Google Cloud" />
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,googlecloud" alt="PyTorch, TensorFlow, Google Cloud" />
 
 </div>
 
-*The icons represent technologies I work with or explore; they are not a claim that every project uses every item.*
+<p align="center">
+  <a href="https://github.com/Gowrav-M?tab=repositories"><img src="https://img.shields.io/badge/Explore-All%20repositories-18181b?style=flat-square&logo=github" alt="Explore all repositories" /></a>
+  <a href="https://github.com/Gowrav-M?tab=projects"><img src="https://img.shields.io/badge/Explore-GitHub%20Projects-18181b?style=flat-square&logo=github" alt="Explore GitHub Projects" /></a>
+</p>
+
+<sub>Technology logos indicate tools used or explored across the portfolio; they do not imply that every project uses the entire stack.</sub>
 
 ---
 
-## 📈 GitHub activity
+## Engineering systems map
+
+A portfolio-level view of the main engineering domains and how the projects fit together.
+
+```mermaid
+flowchart TB
+    DEV["Gowrav M — Engineering Portfolio"]
+
+    DEV --> TRUST["Agent Trust & Runtime Governance"]
+    DEV --> GEO["Earth Observation & Civic Intelligence"]
+    DEV --> FIN["Financial Intelligence & Operations"]
+    DEV --> PROD["Interactive Products & Applied ML"]
+
+    subgraph TRUSTSYS["Trust lifecycle"]
+      T1["nim-doctor"]
+      T2["agent-endpoint-doctor"]
+      T3["agent-cognicheck"]
+      T4["agent-skillguard"]
+      T5["agentops-watchtower"]
+      T6["agent-trust-center"]
+      T7["NeuralOps Platform"]
+      T1 --> T6
+      T2 --> T6
+      T3 --> T6
+      T4 --> T6
+      T5 --> T6
+      T6 --> T7
+    end
+
+    subgraph GEOSYS["Geospatial intelligence"]
+      G1["SatQuery AI"]
+      G2["Bharat Pulse"]
+      G3["EchoShare"]
+    end
+
+    subgraph FINSYS["Financial systems"]
+      F1["Bloomberg Intelligence Terminal"]
+      F2["Personal Finance Intelligence"]
+      F3["Financial Autopilot"]
+      F4["FeeMatch Ops"]
+    end
+
+    subgraph PRODSYS["Product engineering"]
+      P1["VenueFlow Studio"]
+      P2["Smart Attendance Operations"]
+      P3["Applied ML experiments"]
+    end
+
+    TRUST --> TRUSTSYS
+    GEO --> GEOSYS
+    FIN --> FINSYS
+    PROD --> PRODSYS
+```
+
+---
+
+## Project portfolio
+
+The repository set is organized by the engineering problem each system addresses. Expand a track to inspect its projects and implementation focus.
+
+<details>
+<summary><strong>01 — Agent security, trust and governance</strong> · 6 repositories</summary>
+
+| Project | Engineering focus |
+| --- | --- |
+| [Agent Trust Center](https://github.com/Gowrav-M/agent-trust-center) | Normalizes evidence from specialist tools into Markdown, HTML and JSON trust reports with CI gating |
+| [AgentOps Watchtower](https://github.com/Gowrav-M/agentops-watchtower) | MCP runtime observability, capability firewall, attack-path evidence and OpenTelemetry traces |
+| [Agent SkillGuard](https://github.com/Gowrav-M/agent-skillguard) | Skill supply-chain admission, provenance, SkillBOM, approval records and policy-as-code |
+| [Agent Cognicheck](https://github.com/Gowrav-M/agent-cognicheck) | Local-first cognitive security scans and attack harnesses for MCP tools and agent skills |
+| [Agent Endpoint Doctor](https://github.com/Gowrav-M/agent-endpoint-doctor) | Compatibility probes for chat, streaming, tool calls, JSON mode, responses and embeddings |
+| [NIM Doctor](https://github.com/Gowrav-M/nim-doctor) | NVIDIA NIM model readiness checks and reproducible endpoint evidence |
+
+**Platform extension:** [NeuralOps](https://github.com/Gowrav-M/neuralops-platform) explores scoped agent identities, approval workflows, short-lived authorization leases, revocation and operator controls.
+
+</details>
+
+<details>
+<summary><strong>02 — Earth observation, geospatial and civic intelligence</strong> · 3 repositories</summary>
+
+| Project | Engineering focus |
+| --- | --- |
+| [SatQuery AI — Evidence Dossier](https://github.com/Gowrav-M/satquery-ai-sih-2026-evidence) | Multi-sensor Sentinel-1/2 analysis, deterministic raster measurements, scientific guardrails and a cryptographic evidence graph |
+| [SatQuery AI — Application](https://github.com/Gowrav-M/satquery-ai) | Natural-language investigation over remote-sensing imagery with multimodal analysis workflows |
+| [Bharat Pulse — Public Showcase](https://github.com/Gowrav-M/bharat-pulse-showcase) | Civic signal monitoring, satellite map visualization, multi-source validation and geospatial analytics |
+| [EchoShare](https://github.com/Gowrav-M/EchoShare) | Geo-tagged environmental reporting, community coordination, maps and AI-assisted enrichment |
+
+</details>
+
+<details>
+<summary><strong>03 — Financial intelligence and operations</strong> · 4 repositories</summary>
+
+| Project | Engineering focus |
+| --- | --- |
+| [Bloomberg Intelligence Terminal](https://github.com/Gowrav-M/Bloomberg-v4) | Live market data, world directory, AI-assisted analysis and persistent financial workspaces |
+| [Personal Finance Intelligence System](https://github.com/Gowrav-M/Personal-Finance-Management-System) | Gmail transaction ingestion, classification, forecasting, anomaly detection and conversational analytics |
+| [Financial Autopilot Agent](https://github.com/Gowrav-M/financial-autopilot-agent) | Local-first multi-agent spending analysis, scenario simulation and habit insights |
+| [FeeMatch Ops](https://github.com/Gowrav-M/feematch-ops-local) | Explainable fee reconciliation, duplicate detection, audit trails and multi-tenant financial workflows |
+
+</details>
+
+<details>
+<summary><strong>04 — Product engineering, 3D systems and applied ML</strong> · 4 repositories</summary>
+
+| Project | Engineering focus |
+| --- | --- |
+| [VenueFlow Studio](https://github.com/Gowrav-M/venueflow-studio) | AI-assisted 3D commercial-space planning, layout constraints, safety checks and professional exports |
+| [Smart Attendance & Academic Operations](https://github.com/Gowrav-M/smart-attendance-ops) | Hardware-independent attendance architecture, offline event ingestion and deterministic finalization |
+| [Machine Learning — Regression](https://github.com/Gowrav-M/Machine-learning) | Exploratory analysis and simple/multiple linear regression |
+| [ML2 — Classification](https://github.com/Gowrav-M/ML2) | Iris classification, decision-tree training, evaluation and visualization |
+
+</details>
+
+<details>
+<summary><strong>Additional experiments</strong></summary>
+
+- [Autonomous Personal Finance AI](https://github.com/Gowrav-M/Autonomous-Personal-Finance-Al) — linked AI Studio prototype.
+- [All public repositories](https://github.com/Gowrav-M?tab=repositories) — browse the complete public project history.
+
+</details>
+
+---
+
+## Live GitHub analytics
+
+These visual reports are generated from GitHub data and stored in this repository. They are self-hosted SVGs rather than third-party stats endpoints, and the workflow refreshes them automatically.
 
 <div align="center">
 
-<a href="https://github.com/Gowrav-M">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Gowrav-M&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="GitHub profile statistics" />
-</a>
-<a href="https://github.com/Gowrav-M">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gowrav-M&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Most used public repository languages" />
+<a href="https://github.com/Gowrav-M?tab=overview">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/overview.dark.svg" />
+    <img src="./assets/profile/overview.light.svg" alt="GitHub profile overview: contributions, repositories, stars and activity" width="100%" />
+  </picture>
 </a>
 
-<img src="https://streak-stats.demolab.com?user=Gowrav-M&hide_border=true&theme=transparent" alt="GitHub contribution streak" width="90%" />
+<a href="https://github.com/Gowrav-M?tab=overview">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/contributions.dark.svg" />
+    <img src="./assets/profile/contributions.light.svg" alt="GitHub contribution history and streak visualization" width="100%" />
+  </picture>
+</a>
 
 </div>
+
+<details>
+<summary><strong>Explore deeper activity visualizations</strong></summary>
+
+<div align="center">
+
+<a href="https://github.com/Gowrav-M?tab=repositories">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/languages.dark.svg" />
+    <img src="./assets/profile/languages.light.svg" alt="Programming language treemap across public repositories" width="100%" />
+  </picture>
+</a>
+
+<a href="https://github.com/Gowrav-M?tab=repositories">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/repositories.dark.svg" />
+    <img src="./assets/profile/repositories.light.svg" alt="Repositories ranked by recent contribution activity" width="100%" />
+  </picture>
+</a>
+
+<a href="https://github.com/Gowrav-M?tab=overview">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/composition.dark.svg" />
+    <img src="./assets/profile/composition.light.svg" alt="Contribution composition across commits, pull requests, issues and reviews" width="100%" />
+  </picture>
+</a>
+
+<a href="https://github.com/Gowrav-M?tab=overview">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile/rhythm.dark.svg" />
+    <img src="./assets/profile/rhythm.light.svg" alt="Contribution activity rhythm by weekday and month" width="100%" />
+  </picture>
+</a>
+
+</div>
+</details>
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake.svg" />
-  <img alt="GitHub contribution graph animation" src="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake.svg" width="100%" />
+  <img alt="Animated GitHub contribution graph" src="https://raw.githubusercontent.com/Gowrav-M/Gowrav-M/output/github-snake.svg" width="100%" />
 </picture>
 
 </div>
 
 ---
 
-## 🔗 Find me
+## Connect
 
 <div align="center">
 
-<a href="https://github.com/Gowrav-M"><img src="https://img.shields.io/badge/GitHub-Profile-111827?style=for-the-badge&logo=github" alt="GitHub" /></a>
-<a href="mailto:gowravm21@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-0F766E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/Gowrav-M"><img src="https://img.shields.io/badge/GitHub-Profile-18181b?style=for-the-badge&logo=github" alt="GitHub profile" /></a>
+<a href="mailto:gowravm21@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0F766E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email contact" /></a>
 
 <br /><br />
-<sub>Built in public. Improved continuously. Focused on useful engineering.</sub>
+<sub>Engineered with curiosity. Documented with evidence. Improved continuously.</sub>
 
 </div>
