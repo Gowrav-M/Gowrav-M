@@ -56,7 +56,6 @@ These projects are linked directly to their repositories so the implementation a
       <p>A public showcase for a platform focused on mapping civic signals and presenting data for operational analysis.</p>
       <a href="https://github.com/Gowrav-M/bharat-pulse-showcase">Showcase repository →</a>
       <br />
-      <a href="https://github.com/Gowrav-M/bharat-pulse">Private development repository (not publicly accessible) →</a>
     </td>
     <td width="50%" valign="top">
       <h3>🌱 EchoShare</h3>
